@@ -2,7 +2,7 @@
             background-color: #000000;
         }
         .navbar {
-            background-color: #181818;
+            background-color: #000000;
         }
         .navbar-brand, .nav-link {
             color: white;
@@ -30,7 +30,7 @@
             color: rgb(255, 238, 0); /* เปลี่ยนสีเมื่อเมาส์วาง */
         }
         .hero-section h1 {
-            text-shadow: 2px 2px 4px rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgb(134, 134, 134);
         }
         
 
@@ -140,8 +140,66 @@
 }
 
 
-        
+section {
+    
+    color: #fff; /* ฟอนต์สีขาว */
+    line-height: 1.7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
 
-          
+    
+  }
+  
+  /* Main header */
+  
+  .ridge {
+    background-color: transparent; /* พื้นหลังโปร่งใส */
+    padding: 20px;
+    border: 2px solid #fff; /* กรอบสีขาว */
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+  /* ฟอนต์และการจัดการข้อความ */
+  section {
+    
+    color: #fff;
+    line-height: 1.7;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.1em;
+    color: #ccc; /* ฟอนต์สีเทาอ่อน */
+    margin-bottom: 15px;
+  }
+
+  strong {
+    color: #f39c12; /* สีทองสำหรับเน้นคำสำคัญ */
+  }
+
+  /* ฟุตเตอร์ */
+  .footer {
+    font-size: 1.2em;
+    color: #16a085;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+
 
    
