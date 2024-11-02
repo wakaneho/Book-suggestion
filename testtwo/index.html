@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <!--title-->
+    <title>BookNest:คลังหนังสือออนไลน์ที่รวบรวมหนังสือใหม่่และสารคดีเปิดโลกที่คุณไม่ควรพลาด</title>
+    <meta name="keywords" content="คลังหนังสือออนไลน์,หนังสือใหม่,หนังสือแนะนำ,หนังสือพัฒนาตนเอง,นิยายสะท้อนอารมณ์,สารคดีเปิดโลก">
+    <meta name="description" content="ค้นพบคลังหนังสือออนไลน์ที่รวบรวมหนังสือใหม่, สารคดีเปิดโลก, และหนังสือพัฒนาตนเอง ที่จะช่วยพัฒนาความรู้และประสบการณ์การอ่านของคุณ พร้อมทั้งนิยายสะท้อนอารมณ์และหนังสือแนะนำที่ไม่ควรพลาด!">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path_to_your_css_file.css">
+
+</head>
+<body>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+          <section class="hero-section">
+              <h1>“Dream and Stream”</h1>
+          </section>
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Fiction</a></li>
+                          <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
+                          <li><a class="dropdown-item" href="#">Travel</a></li>
+                          <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                          <li><a class="dropdown-item" href="#">Social Commentary</a></li>
+                          <li><a class="dropdown-item" href="#">Political Satire</a></li>
+                          <li><a class="dropdown-item" href="#">Dystopian</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <!-- Search Bar -->
+              <form class="d-flex ms-3" id="searchForm">
+                  <input class="form-control me-2" type="search" placeholder="Search for a book" id="searchInput" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+          </div>
+      </div>
+  </nav>
+  
+  <!-- Tabs Section -->
+  <div class="container mt-4">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+          </li>
+          <li class="nav-item" role="presentation">
+              <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews</button>
+          </li>
+          <li class="nav-item" role="presentation">
+              <button class="nav-link" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab" aria-controls="details" aria-selected="false">Details</button>
+          </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+              <p>เปิดโลกแห่งการอ่านใน คลังหนังสือออนไลน์ ของเรา ที่รวบรวม หนังสือใหม่ และ สารคดีเปิดโลก สำหรับผู้ที่ต้องการพัฒนาตนเองและเข้าใจความหมายของชีวิต ผ่าน นิยายสะท้อนอารมณ์ ที่ช่วยให้คุณเข้าถึงประสบการณ์การอ่านที่หลากหลาย หนังสือแนะนำ ของเราจะช่วยให้คุณได้รับแรงบันดาลใจและความรู้ใหม่ ๆ ในทุก ๆ หน้า</p>
+          </div>
+          <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+              <p>รีวิวจากผู้อ่าน</p>
+          </div>
+          <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
+              <p>ในคลังหนังสือออนไลน์ของเราคุรจะได้พบกับหนังสือใหม่อัปเดตทุกสัปดาห์ เพื่อให้คุณไม่พลาดการเคลื่อนไหววงการหนังสือ คัดสรรหนังสือแนะนำจากบรรณาธิการของเราเพื่อช่วยให้คุณได้รับหนังสือที่เหมาะสม เช่น หนังสือพัฒนาตนเองที่จะทำให้คุณรู้สึกเพลิดเพลินและได้แรงบันดาลใจ</p>
+          </div>
+      </div>
+  </div>
+  
+  <script>
+      document.getElementById('searchForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          let searchValue = document.getElementById('searchInput').value.toLowerCase();
+          let books = document.querySelectorAll('.book-item');
+  
+          books.forEach(function(book) {
+              book.classList.remove('highlight');
+          });
+  
+          let found = false;
+          books.forEach(function(book) {
+              let bookTitle = book.querySelector('h4').innerText.toLowerCase();
+  
+              if (bookTitle.includes(searchValue)) {
+                  found = true;
+                  book.scrollIntoView({ behavior: 'smooth' });
+                  book.classList.add('highlight');
+              }
+          });
+  
+          if (!found) {
+              alert('Book not found');
+          }
+      });
+  </script>
+      
+      
+
+   <!-- Book Section -->
+    
+   <div class=" book-head"> 
+    <img src="img/BookNest (1).jpg" alt="BookNest" class="img-fluid" />
+</div>
+
+<div class="container book-section">
+    <div class="row">
+        <!-- Book 1 -->
+        <div class="col-md-4 book-item">
+            <img src="img/1.jpg" alt="Book 1">
+            <div class="book-info">
+                <h4>ความจริงไม่ได้มีเพียงหนึ่งเดียว</h4>
+                <p>ในโลกที่เต็มไปด้วยมุมมองหลากหลาย ค้นพบความจริงที่คุณอาจไม่เคยคิดมาก่อน" คำแนะนำ: หนังสือพัฒนาตนเองที่ผสมผสานความเป็นนิยายสะท้อนอารมณ์ที่เปิดโลกทัศน์ให้คุณมองเห็นความแตกต่างในความคิดและความเชื่อ ผ่านเรื่องราวที่กระตุ้นให้คิดวิเคราะห์และตั้งคำถามกับสิ่งที่เชื่อมั่น</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book1Modal">Read More</button>
+            </div>
+        </div>
+        <!-- Book 2 -->
+        <div class="col-md-4 book-item">
+            <img src="img/2.jpg" alt="Book 2">
+            <div class="book-info">
+                <h4>แด่บัณฑิต</h4>
+                <p>บทเรียนชีวิตที่บรรจุในคำพูดแห่งปัญญา สำหรับทุกคนที่ต้องการค้นหาความหมาย" คำแนะนำ: หนังสือใหม่แนะแนวการใช้ชีวิตเชิงปรัชญาที่ส่งต่อคำสอนจากบัณฑิตผู้ทรงคุณวุฒิ กระตุ้นให้ผู้อ่านตั้งคำถามกับชีวิตและค้นหาความหมายที่แท้จริง</p>                    
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book2Modal">Read More</button>
+            </div>
+        </div>
+        <!-- Book 3 -->
+        <div class="col-md-4 book-item">
+            <img src="img/3.jpg" alt="Book 3">
+            <div class="book-info">
+                <h4>New York 1st Time นิวยอร์กตอนแรก ๆ</h4>
+                <p>สัมผัสกับมหานครที่ไม่มีวันหลับใหล ผ่านสายตาของคนที่มาเยือนครั้งแรก" คำแนะนำ: เป็นอีกหนึ่งเรื่องราวการเดินทางที่เต็มไปด้วยความตื่นเต้นและการค้นพบ เมืองที่มีชีวิตชีวาเป็นฉากหลังของประสบการณ์ที่น่าจดจำในคลังหนังสือออนไลน์ของเราที่ตั้งใจคัดสรรมา</p>                    
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book3Modal">Read More</button>
+            </div>
+        </div>
+
+        <!-- Book 4 -->
+        <div class="col-md-4 book-item">
+            <img src="img/4.jpg" alt="Book 4">
+            <div class="book-info">
+                <h4>The Little Prince</h4>
+                
+                <p>เรื่องราวของมิตรภาพและการค้นหาความหมายในชีวิต ผ่านมุมมองของเจ้าชายน้อย" คำแนะนำ: นิทานที่สะท้อนความงามของความไร้เดียงสาและความหมายที่ลึกซึ้ง ที่จะทำให้คุณหวนคิดถึงความฝันในวัยเด็ก เป็นหนังสือแนะนำสำหรับผู้ที่อยากซึมซับสารคดีเปิดโลกอย่างลึกซึ้ง</p>
+                
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book4Modal">Read More</button>
+            </div>
+        </div>
+        
+       <!-- Book 5 -->
+<div class="col-md-4 book-item">
+  <img src="img/5.jpg" alt="Book 5">
+  <div class="book-info">
+      <h4>The Alchemist</h4>
+      <p>การเดินทางสู่การค้นหาตนเองและโชคชะตาผ่านการแสวงหาความฝัน" คำแนะนำ: นิยายสะท้อนอารมณ์ที่เชิญชวนให้คุณกล้าที่จะตามหาความฝันและเข้าใจว่าชีวิตเป็นการเดินทางที่มีความหมาย</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book5Modal">Read More</button>
+  </div>
+</div>
+
+<!-- Book 6 -->
+<div class="col-md-4 book-item">
+  <img src="img/6.jpg" alt="Book 6">
+  <div class="book-info">
+      <h4>Midnight Library</h4>
+      <p>เมื่อชีวิตมีทางเลือกนับพัน พบกับห้องสมุดที่ช่วยให้คุณเลือกเส้นทางใหม่" คำแนะนำ: หนังสือพัฒนาตนเองที่รวบรวมเรื่องราวกระตุ้นให้คุณคิดเกี่ยวกับการตัดสินใจในชีวิต และว่าเราอาจมีโอกาสในการเริ่มต้นใหม่ได้เสมอ</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book6Modal">Read More</button>
+  </div>
+</div>
+
+<!-- Book 7 -->
+<div class="col-md-4 book-item">
+  <img src="img/7.jpg" alt="Book 7">
+  <div class="book-info">
+      <h4>Animal Farm</h4>
+      <p>บทเรียนทางการเมืองที่ถูกถ่ายทอดในรูปแบบของเรื่องราวของสัตว์" คำแนะนำ: นิยายที่สะท้อนความไม่เท่าเทียมและการปกครอง ผ่านการเล่าเรื่องที่ชาญฉลาดและเป็นที่นิยมในทุกยุคสมัยหนังสือแนะนำสำหรับผู้ที่สนใจเรื่องของความเท่าเทียม</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book7Modal">Read More</button>
+  </div>
+</div>
+
+<!-- Book 8 -->
+<div class="col-md-4 book-item">
+  <img src="img/8.jpg" alt="Book 8">
+  <div class="book-info">
+      <h4>The Handmaid's Tale</h4>
+      <p>เมื่อเสรีภาพถูกพรากไป สถานะของผู้หญิงกลายเป็นสิ่งที่ต้องต่อสู้" คำแนะนำ: นิยายสะท้อนอารมณ์ความจริงทางสังคมและการเมืองในรูปแบบดิสโทเปีย กระตุ้นให้ผู้อ่านตั้งคำถามเกี่ยวกับสิทธิและความเสมอภาค</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book8Modal">Read More</button>
+  </div>
+</div>
+
+<!-- Book 9 -->
+<div class="col-md-4 book-item">
+  <img src="img/9.jpg" alt="Book 9">
+  <div class="book-info">
+      <h4>คิมจียอง เกิดปี 82</h4>
+      <p>เรื่องราวของผู้หญิงคนหนึ่งในสังคมที่ยัดเยียดบทบาทและความคาดหวัง" คำแนะนำ: นิยายสะท้อนอารมณ์ที่สำรวจชีวิตของผู้หญิงในสังคมเกาหลีใต้ ผ่านการเล่าเรื่องที่ทำให้คุณเข้าใจถึงความกดดันและการต่อสู้ในชีวิตประจำวัน</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#book9Modal">Read More</button>
+  </div>
+</div>
+
+<!-- Modals -->
+<!-- Modal for Book 1 -->
+<div class="modal fade" id="book1Modal" tabindex="-1" aria-labelledby="book1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="book1ModalLabel">ความจริงไม่ได้มีเพียงหนึ่งเดียว</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        นิยายสะท้อนอารมณ์ที่ท้าทายความเชื่อและการมองโลกแบบเดิม ๆ ที่เราเคยเข้าใจมาตลอดชีวิต ในหนังสือเล่มนี้ ผู้เขียนได้หยิบยกหลากหลายมุมมองที่ขัดแย้งกันในประเด็นเดียวกันออกมาแสดง เพื่อทำให้ผู้อ่านได้เห็นถึงการที่โลกและสังคมรอบตัวเราเต็มไปด้วยความซับซ้อน และไม่มีความจริงใดที่เป็นคำตอบที่แน่นอนเพียงหนึ่งเดียว ความเชื่อ ความคิด และการตีความของแต่ละคนล้วนแล้วแต่ถูกหล่อหลอมจากประสบการณ์ชีวิต วัฒนธรรม และสภาพแวดล้อมที่แตกต่างกัน หนังสือเล่มนี้กระตุ้นให้เราตั้งคำถามเกี่ยวกับความจริงที่เราเชื่อมั่น และเปิดโอกาสให้เราพิจารณาสิ่งต่าง ๆ รอบตัวด้วยวิสัยทัศน์ที่กว้างขึ้น พร้อมกับนำเสนอกรณีศึกษาและเหตุการณ์ที่น่าสนใจเพื่อให้ผู้อ่านได้คิดวิเคราะห์อย่างลึกซึ้ง เป็นหนังสือที่เหมาะสำหรับผู้ที่กำลังแสวงหาความรู้และมุมมองใหม่ ๆ ต่อชีวิตและโลกใบนี้      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Book 2 -->
+<div class="modal fade" id="book2Modal" tabindex="-1" aria-labelledby="book2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="book2ModalLabel">แด่บัณฑิต</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        "แด่บัณฑิต" เป็นหนังสือใหม่ที่รวบรวมบทเรียนและคำสอนจากผู้มีประสบการณ์ในหลายสาขา ผู้ซึ่งได้ถ่ายทอดความรู้และปัญญาเพื่อเป็นแรงบันดาลใจให้กับคนรุ่นใหม่หรือผู้ที่กำลังแสวงหาความหมายของชีวิต หนังสือเล่มนี้ไม่ได้เพียงให้คำแนะนำในการใช้ชีวิตเท่านั้น แต่ยังชวนให้เราตั้งคำถามเกี่ยวกับความหมายของความสำเร็จและความสุข บัณฑิตในที่นี้ไม่ได้หมายถึงเพียงผู้ที่สำเร็จการศึกษาเท่านั้น แต่ยังหมายถึงผู้ที่ได้เรียนรู้จากประสบการณ์ชีวิตทั้งสุขและทุกข์ บทเรียนในหนังสือเล่มนี้มาจากการตั้งคำถามที่ลึกซึ้ง เช่น "อะไรคือเป้าหมายที่แท้จริงของการศึกษา?" และ "เราควรใช้ชีวิตอย่างไรให้มีคุณค่า?" ผู้อ่านจะได้รับมุมมองที่ลึกซึ้งและคำแนะนำที่สามารถนำไปปรับใช้ในชีวิตประจำวัน ไม่ว่าจะเป็นเรื่องการทำงาน การตั้งเป้าหมายในชีวิต หรือแม้กระทั่งการค้นหาความสุขจากภายในตัวเอง เป็นหนังสือที่เหมาะสำหรับผู้ที่กำลังมองหาทางเดินใหม่หรือผู้ที่ต้องการคำแนะนำในการใช้ชีวิตอย่างมีความหมายและเป้าหมายที่แท้จริง      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Book 3 -->
+<div class="modal fade" id="book3Modal" tabindex="-1" aria-labelledby="book3ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="book3ModalLabel">New York 1st Time นิวยอร์กตอนแรก ๆ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        นิวยอร์ก มหานครที่ไม่มีวันหลับใหล อีกหนึ่งหนังสือพัฒนาตนเอง เล่มนี้จะพาผู้อ่านเข้าสู่การเดินทางของผู้มาเยือนนิวยอร์กครั้งแรกในคลังหนังสือออนไลนืของเรา ผ่านสายตาและความรู้สึกของนักเดินทางที่ยังไม่คุ้นเคยกับเมืองใหญ่ที่เต็มไปด้วยสีสันและชีวิตชีวา นิวยอร์กไม่เพียงแต่เป็นเมืองที่มีชื่อเสียงระดับโลกในด้านแฟชั่น ศิลปะ และวัฒนธรรม แต่ยังเป็นสถานที่ที่รวมเอาผู้คนจากทุกมุมโลกเข้ามาสร้างสรรค์สิ่งใหม่ ๆ ผ่านการเล่าเรื่องที่สนุกสนานและเต็มไปด้วยความตื่นเต้น หนังสือเล่มนี้ให้ความรู้สึกเหมือนกับการเดินทางไปด้วยกันกับผู้เขียนในทุกย่างก้าว ทุกซอกซอยที่สำรวจ และทุกอารมณ์ที่เกิดขึ้นในมหานครแห่งนี้ ไม่ว่าจะเป็นการชมอาคารสูงเสียดฟ้า การเดินเล่นใน Central Park หรือการสัมผัสบรรยากาศที่แสนคึกคักของ Time Square หนังสือเล่มนี้สะท้อนถึงความประทับใจแรกต่อเมืองที่เต็มไปด้วยความฝัน และความเป็นไปได้ที่ไม่มีที่สิ้นสุด เป็นหนังสือที่เหมาะสำหรับคนรักการเดินทาง หรือผู้ที่ใฝ่ฝันที่จะได้สัมผัสนิวยอร์กด้วยตัวเองสักครั้งในชีวิต      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Book 4 -->
+<div class="modal fade" id="book4Modal" tabindex="-1" aria-labelledby="book4ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="book4ModalLabel">The Little Prince</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        "เจ้าชายน้อย" เล่าเรื่องราวของเด็กชายจากดาวเคราะห์เล็ก ๆ ที่ออกเดินทางเพื่อค้นหาความหมายของชีวิต เขาได้พบกับตัวละครต่าง ๆ เช่น นักธุรกิจที่หมกมุ่นกับตัวเลข และนักบินที่สูญหายกลางทะเลทราย ในการเดินทาง เจ้าชายน้อยได้เรียนรู้บทเรียนสำคัญเกี่ยวกับ มิตรภาพ และ ความรัก ผ่านความสัมพันธ์กับ นางโรส ที่เป็นดาวดวงเดียวของเขา
+        ด้วยภาษาที่เรียบง่ายแต่ลึกซึ้ง "เจ้าชายน้อย" ช่วยให้ผู้อ่านได้ค้นพบ ปรัชญา ที่ซ่อนอยู่ในชีวิตประจำวัน ทั้งยังเป็น หนังสือคลาสสิก ที่เหมาะสำหรับทุกวัยที่ต้องการหวนกลับมาสู่ความเป็นเด็กและมุมมองที่สดใสในชีวิตเพราะเป็นอีกหนึ่งหนังสือพัฒนาที่น่าสนใจ
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Book 5 -->
+<div class="modal fade" id="book5Modal" tabindex="-1" aria-labelledby="book5ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="book5ModalLabel">The Alchemist</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              นิยายที่เต็มไปด้วยแรงบันดาลใจและการค้นหาความหมายของชีวิต ผ่านเรื่องราวของซานติอาโก ชายหนุ่มชาวนาในสเปนที่ออกเดินทางตามหาความฝันของเขา หนังสือเล่มนี้ชูแนวคิดว่าแต่ละคนมี "โชคชะตา" ของตนเอง และการเดินทางเพื่อค้นหาความฝันนั้นมีความสำคัญมากกว่าการถึงจุดหมาย ผลงานนี้เป็นแรงบันดาลใจให้ผู้อ่านเชื่อมั่นในความฝันและการใช้ชีวิตอย่างมีความหมาย เหมาะสำหรับทุกคนที่กำลังค้นหาทางในชีวิตหรือรู้สึกท้อแท้ เป็นสารคดีเปิดโลกสำหรับผู้ที่สนใจด้านการเดินทางเป็นอย่างยิ่ง
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal for Book 6 -->
+<div class="modal fade" id="book6Modal" tabindex="-1" aria-labelledby="book6ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="book6ModalLabel">Midnight Library</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              ในโลกแห่งนี้มีห้องสมุดที่พิเศษ ที่คุณสามารถเลือกชีวิตที่คุณต้องการได้จากทางเลือกที่คุณได้ทำในอดีต หนังสือใหม่ที่กล่าวถึงเรื่องราวของนางเอกที่ค้นพบว่าชีวิตของเธอเต็มไปด้วยความเสียใจและความผิดพลาด แต่ห้องสมุดนี้กลับเปิดโอกาสให้เธอได้สัมผัสกับชีวิตที่แตกต่างและตั้งคำถามเกี่ยวกับการตัดสินใจที่เธอทำ มันเป็นการสำรวจความหมายของการใช้ชีวิตและความสำคัญของการเลือกทางเดินของตัวเอง เหมาะสำหรับผู้ที่ชอบเรื่องราวเชิงปรัชญาและการค้นหาในชีวิตเป็นอีกหนึ่งนิยายสะท้อนอารมณ์ที่ไม่ควรพลาด
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal for Book 7 -->
+<div class="modal fade" id="book7Modal" tabindex="-1" aria-labelledby="book7ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="book7ModalLabel">Animal Farm</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              นิยายเชิงสัญลักษณ์ที่ใช้เรื่องราวของสัตว์ในฟาร์มเพื่อสะท้อนความจริงทางการเมืองและสังคม ผลงานนี้วิพากษ์วิจารณ์ระบบการปกครองและอำนาจในสังคมอย่างเฉียบแหลม โดยการเล่าเรื่องที่สนุกสนานและเข้าใจง่าย ทำให้ผู้อ่านสามารถเห็นถึงความไม่เท่าเทียมและการต่อสู้เพื่อเสรีภาพ เหมาะสำหรับผู้ที่สนใจในเรื่องการเมือง สังคม และมนุษยธรรม สามารถหาหนังสือดีๆแบบนี้ได้จากคลังหนังสือออนไลน์ของเรา
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal for Book 8 -->
+<div class="modal fade" id="book8Modal" tabindex="-1" aria-labelledby="book8ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="book8ModalLabel">The Handmaid's Tale</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              นิยายดิสโทเปียที่สำรวจชีวิตของผู้หญิงในสังคมที่ถูกควบคุมอย่างเข้มงวด เป็นหนังสือปนะนำอีกเล่ม เป็นการวิจารณ์บทบาทของผู้หญิงในสังคมและอำนาจที่มีอิทธิพลต่อชีวิตของพวกเธอ ผ่านตัวละครหลักที่ต้องต่อสู้เพื่อเสรีภาพและอัตลักษณ์ของตนเอง ความเครียดและความตึงเครียดในเรื่องนี้ทำให้ผู้อ่านเกิดการตั้งคำถามเกี่ยวกับสิทธิมนุษยชนและสิทธิของผู้หญิง เหมาะสำหรับผู้ที่สนใจในประเด็นทางสังคมและความยุติธรรม
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal for Book 9 -->
+<div class="modal fade" id="book9Modal" tabindex="-1" aria-labelledby="book9ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="book9ModalLabel">คิมจียอง เกิดปี 82</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              นิยายสะท้อนอารมณ์ที่สำรวจชีวิตของผู้หญิงคนหนึ่งในสังคมเกาหลีใต้ ที่ต้องเผชิญกับความคาดหวังและบทบาทที่ถูกกำหนดโดยสังคม หนังสือใหม่เล่มนี้พาเราสำรวจความกดดันในชีวิตประจำวันของผู้หญิงในยุคปัจจุบัน ผ่านการเล่าเรื่องที่เรียบง่ายแต่สะท้อนถึงความจริงที่ลึกซึ้ง มันทำให้ผู้อ่านเข้าใจถึงการต่อสู้และความหวังของผู้หญิงในสังคมที่มีอุปสรรคมากมาย เหมาะสำหรับผู้ที่สนใจในประเด็นเพศศึกษาและการเคลื่อนไหวทางสังคม
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<section>
+  <div class="ridge">
+    <p>
+    <h1>ยินดีต้อนรับสู่ <strong>BookNest </strong></h1>
+    <h1>คลังหนังสือออนไลน์ที่เต็มไปด้วยหนังสือแนะนำดีๆ เรารวบรวมหนังสือใหม่มากมายมาให้คุณได้เลือกอ่าน</h1>
+
+    <p>"ที่ <strong>BookNest</strong> เราเชื่อว่า <strong>การอ่าน</strong> คือประตูสู่โลกใหม่ที่ไม่มีที่สิ้นสุด คลังหนังสือออนไลน์ของของเราคัดสรรหนังสือมามากมายอย่างตั้งใจ ไม่ว่าจะเป็น <strong>นิยายสะท้อนอารมณ์</strong> ที่เต็มไปด้วยความลึกซึ้งและอารมณ์ที่จับใจ, <strong>สารคดีเปิดโลก</strong> ที่ช่วยขยายมุมมองและความเข้าใจในเรื่องราวรอบตัว, หรือ <strong>หนังสือพัฒนาตนเอง</strong> ที่มอบแรงบันดาลใจและความรู้ในการเติบโตและพัฒนาความสามารถของตัวเอง"</p>
+
+    <p>เราภูมิใจที่ได้เป็นแหล่งรวม <strong>หนังสือแนะนำ</strong> จากผู้เชี่ยวชาญที่พร้อมช่วยแนะนำหนังสือที่น่าสนใจและเหมาะสมกับทุกความสนใจของคุณ นอกจากนี้ เรายังมี <strong>รีวิวหนังสือ</strong> ที่จะช่วยให้คุณเลือกอ่านได้ง่ายขึ้น พร้อมคำแนะนำที่มีทิศทางและชัดเจน</p>
+
+    <p>ไม่เพียงแค่หนังสือที่คัดสรรมาอย่างดี แต่ <strong>BookNest</strong> ยังมุ่งมั่นที่จะทำให้การอ่านเป็นเรื่องที่เข้าถึงได้ง่าย ด้วยการแนะนำ <strong>หนังสือใหม่</strong> ที่น่าสนใจอย่างสม่ำเสมอ คุณจะได้สัมผัสกับประสบการณ์การอ่านที่หลากหลาย และน่าจดจำไปพร้อมกับเราในทุก ๆ เล่ม</p>
+
+    <p class="footer"> <strong>BookNest</strong> – ที่ที่ทุกการอ่านมีความหมาย และทุกเรื่องราวรอคุณอยู่</p>
+    </p>
+  </div>
+</section>
+</div>
+</div>
+
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+
+// ค้นหาตามชื่อหนังสือ
+function highlightBook(bookTitle) {
+  const books = document.querySelectorAll('.book-item');
+  books.forEach(book => {
+    const title = book.querySelector('h4').innerText;
+    if (title.includes(bookTitle)) {
+      book.style.transform = 'translateY(-10px)'; // นูนขึ้น
+      book.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.2)'; // ใส่เงา
+    } else {
+      book.style.transform = 'none'; // คืนค่าเป็นปกติ
+      book.style.boxShadow = 'none'; 
+    }
+  });
+}
+
+// highlightBook 
+document.getElementById('search-input').addEventListener('input', function() {
+  const searchText = this.value;
+  highlightBook(searchText);
+});
+
+
+
+    </script>
+</body>
+</html>

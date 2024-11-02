@@ -1,0 +1,205 @@
+      body {
+            background-color: #000000;
+        }
+        .navbar {
+            background-color: #000000;
+        }
+        .navbar-brand, .nav-link {
+            color: white;
+        }
+        .nav-link:hover {
+            color: #eaff00;
+        }
+        
+        .header-image {
+            text-align: center; /* จัดกลาง */
+            margin: 10px 0; /* ระยะห่างบนและล่าง */
+        }
+
+        
+        
+            
+        .hero-section h1 {
+            font-size: 40px;
+            color: rgb(218, 249, 255);
+            font-weight: bold;
+            
+        }
+        
+        .hero-section h1:hover {
+            color: rgb(255, 238, 0); /* เปลี่ยนสีเมื่อเมาส์วาง */
+        }
+        .hero-section h1 {
+            text-shadow: 2px 2px 4px rgb(134, 134, 134);
+        }
+        
+
+
+        .book-section {
+            padding: 40px 0;
+        }
+        .book-item {
+            margin-bottom: 30px;
+        }
+        .book-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .book-info {
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        .book-info h5 {
+            color: #343a40;
+        }
+        .book-info p {
+            color: #6c757d;
+        }
+        .btn-primary {
+            background-color: #f39c12;
+            border-color: #f39c12;
+        }
+        .btn-primary:hover {
+            background-color: #e67e22;
+            border-color: #e67e22;
+        }
+        body {
+            font-family: "Mitr", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
+          .book-item {
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+          
+          .book-item:hover {
+            transform: translateY(-10px); /* ย้ายตำแหน่งให้หนังสือนูนขึ้น */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* ใส่เงาให้นูนขึ้น */
+          }
+          
+          .book-item img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* ขอบมุมมนเพื่อความสวยงาม */
+          }
+          
+          .book-head img {
+            width: 100%; /* ทำให้ภาพกว้างเต็มที่ */
+            height: auto; /* รักษาสัดส่วนภาพ */
+        }
+        
+        .book-head {
+            max-width: 100%; /* กำหนดความกว้างสูงสุดของ book-head */
+        }
+        
+        
+        /* เปลี่ยนสีพื้นหลังของปุ่มค้นหาให้เป็นสีเหลือง */
+#searchForm .btn {
+    background-color: #FFD700; /* สีเหลืองทอง */
+    color: #000000; /* สีตัวอักษรดำ */
+    border: none; /* เอาขอบออก */
+    padding: 10px 20px; /* เพิ่มขนาดพื้นที่รอบๆตัวอักษร */
+    border-radius: 5px; /* ทำขอบปุ่มให้มน */
+    font-weight: bold; /* เพิ่มน้ำหนักตัวอักษร */
+}
+
+/* เปลี่ยนสีพื้นหลังและสีตัวอักษรในช่องค้นหา */
+#searchForm .form-control {
+    background-color: #FFFFFF; /* สีพื้นหลังของช่องค้นหา */
+    color: #000000; /* สีตัวอักษรในช่องค้นหา */
+    border-radius: 5px; /* ขอบมน */
+    border: 2px solid #FFD700; /* เพิ่มขอบสีเหลืองให้ช่องค้นหา */
+}
+
+/* เปลี่ยนสีตัวอักษรในส่วน navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF; /* สีตัวอักษรเมนูเป็นสีขาว */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FFD700; /* สีตัวอักษรเมนูที่เลือกให้เป็นสีเหลือง */
+}
+
+/* เปลี่ยนสีตัวอักษรสำหรับเมนูแบบ dropdown */
+.navbar-dark .dropdown-menu {
+    background-color: #000000; /* สีพื้นหลังของเมนู dropdown เป็นสีดำ */
+}
+
+.navbar-dark .dropdown-item {
+    color: #FFFFFF; /* สีตัวอักษรใน dropdown เป็นสีขาว */
+}
+
+.navbar-dark .dropdown-item:hover {
+    background-color: #FFD700; /* พื้นหลังเมื่อ hover เป็นสีเหลือง */
+    color: #000000; /* สีตัวอักษรเป็นสีดำเมื่อ hover */
+}
+
+
+section {
+    
+    color: #fff; /* ฟอนต์สีขาว */
+    line-height: 1.7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+
+    
+  }
+  
+  /* Main header */
+  
+  .ridge {
+    background-color: transparent; /* พื้นหลังโปร่งใส */
+    padding: 20px;
+    border: 2px solid #fff; /* กรอบสีขาว */
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+  /* ฟอนต์และการจัดการข้อความ */
+  section {
+    
+    color: #fff;
+    line-height: 1.7;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.1em;
+    color: #ccc; /* ฟอนต์สีเทาอ่อน */
+    margin-bottom: 15px;
+  }
+
+  strong {
+    color: #f39c12; /* สีทองสำหรับเน้นคำสำคัญ */
+  }
+
+  /* ฟุตเตอร์ */
+  .footer {
+    font-size: 1.2em;
+    color: #16a085;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+
+
+   
